@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <!-- Warning Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Warning"
+                    android:textSize="18sp"
+                    android:paddingBottom="8dp"
+                    android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_warning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#738A0000"
+                android:text="WARNING"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/add_contact_warning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pridať kontakt" />
+
+                <TextView
+                    android:id="@+id/contacts_warning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Vybrané kontakty: (žiadne)"
+                    android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+                <!-- Alarm Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alarm"
+                    android:textSize="18sp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_alarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#8500238A"
+                android:text="ALARM"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                    android:id="@+id/add_contact_alarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pridať kontakt" />
+
+                <TextView
+                    android:id="@+id/contacts_alarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Vybrané kontakty: (žiadne)"
+                    android:textSize="14sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <!-- Urgent Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Urgent"
+                    android:textSize="18sp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_urgent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6B01A601"
+                android:text="URGENT"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/add_contact_urgent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pridať kontakt"
+                android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/contacts_urgent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Vybrané kontakty: (žiadne)"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingTop="50dp"
+                android:text="Vymazať kontakt podržaním"
+                android:textAlignment="center"
+                android:textColor="#5D5D5D"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
